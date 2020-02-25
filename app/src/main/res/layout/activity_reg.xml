@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agecounter.reg">
+
+    <EditText
+        android:id="@+id/ename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="4dp"
+        android:hint="Enter Username"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ename"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/eno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Number"
+        android:inputType="phone"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eno"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:width="200dp"
+        android:backgroundTint="#008B5757"
+        android:text="Register"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="46dp"
+        android:text="REGISTER"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp" />
+
+</RelativeLayout>
